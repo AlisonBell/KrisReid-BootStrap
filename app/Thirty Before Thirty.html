@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/main.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src='../js/bootstrap.js'></script>
+		<script src='../js/app.js'></script>
+
+		<title>30 Before 30</title>
+	</head>
+
+	<body>
+		<header class="hidden-xs">
+			<h1 class="hidden-xs">KRIS REID</h1>
+		</header>
+		<!-- use navbar-inverse for darker colour schemes -->
+		<!-- use navbar-static-top to stop it moving around -->
+		<div class='navbar navbar-default navbar-fixed-top'>
+			<div class="container">
+				<div class="navbar-header">
+					<a href="../app/About-Me.html" class="navbar-brand">KRIS REID</a>
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+					<!-- Could also use 'nav nav-pills' -->
+					<ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+						<li><a href="../app/Education.html">Education</a></li>
+						<li><a href="../app/Employment.html">Employment</a></li>
+						<li><a href="../app/Thirty Before Thirty.html">30 before 30</a></li>
+						<li class="closed">
+							<!-- data target is for people who have JS enabled. If not, then user will be directed to the about page -->
+							<a href="../app/About.html" data-target="#" data-toggle="dropdown">More <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="../app/Login" data-toggle="modal" data-target="#myModal">Sign In</a></li>
+								<li class="divider"></li>
+								<li><a href="https://google.com">Google</a></li>
+								<li><a href="https://amazon.co.uk">Amazon</a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header" style="padding:35px 50px;">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+		        </div>
+		        <div class="modal-body" style="padding:40px 50px;">
+		          <form role="form">
+
+		            <div class="form-group">
+		              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+		              <input type="email" class="form-control" id="usrname" placeholder="Enter email">
+		            </div>
+
+		            <div class="form-group">
+		              <label for="psw"><span class="glyphicon glyphicon-lock"></span> Password</label>
+		              <input type="password" class="form-control" id="psw" placeholder="Enter password">
+		            </div>
+
+		            <div class="checkbox">
+		              <label><input type="checkbox" value="" checked>Remember me</label>
+		            </div>
+
+		              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+		          </form>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		          <p>Not a member? <a href="#">Sign Up</a></p>
+		          <p>Forgot <a href="#">Password?</a></p>
+		        </div>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Body Code -->
+
+		<div class='container-fluid'>
+			<div class="row text-justify">
+
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="gallery">
+						<li class="galleryItem">
+							<img src="../img/30Before30/Dolphin.jpg" class="thirtyImage">
+							<p class="imageDate">March 2015</p>
+							<div class="thirtyDescription">Swim with Dolphins</div>
+						</li>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="gallery">
+						<li class="galleryItem">
+							<img src="../img/30Before30/Dolphin.jpg" class="thirtyImage">
+							<p class="imageDate">March 2015</p>
+							<div class="thirtyDescription">Swim with Dolphins</div>
+						</li>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="gallery">
+						<li class="galleryItem">
+							<img src="../img/30Before30/Dolphin.jpg" class="thirtyImage">
+							<p class="imageDate">March 2015</p>
+							<div class="thirtyDescription">Swim with Dolphins</div>
+						</li>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<ul class="gallery">
+						<li class="galleryItem">
+							<img src="../img/30Before30/Dolphin.jpg" class="thirtyImage">
+							<p class="imageDate">March 2015</p>
+							<div class="thirtyDescription">Swim with Dolphins</div>
+						</li>
+				</div>
+
+				<h2>Done It</h2>
+
+				<ul class="gallery">
+					<li class="galleryItem">
+						<img src="../img/30Before30/Dolphin.jpg"
+						class="thirtyImage">
+						<p class="imageDate">March 2015</p>
+						<div class="thirtyDescription">Swim with Dolphins</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/IceBar.jpg"
+						class="thirtyImage">
+						<p class="imageDate">July 2015</p>
+						<div class="thirtyDescription">Drink at the Ice Bar</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/Jet Ski.jpg"
+						class="thirtyImage">
+						<p class="imageDate">March 2015</p>
+						<div class="thirtyDescription">Jet Ski</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/Wine.jpg"
+						class="thirtyImage">
+						<p class="imageDate">May 2015</p>
+						<div class="thirtyDescription">Learn about wine</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/BackIT.png"
+						id="iPhoneImage">
+						<p class="imageDate">Feb 2015</p>
+						<div class="thirtyDescription">Create an iPhone App</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/Wine.jpg"
+						class="thirtyImage">
+						<p class="imageDate">May 2015</p>
+						<div class="thirtyDescription">Learn about wine</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/Wine.jpg"
+						class="thirtyImage">
+						<p class="imageDate">May 2015</p>
+						<div class="thirtyDescription">Learn about wine</div>
+					</li>
+
+				</ul>
+
+				<h2>Remaining</h2>
+				<!-- Insert a countdown ??? -->
+
+				<ul class="gallery">
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+					<li class="galleryItem">
+						<img src="../img/30Before30/No Image.jpg"
+						class="noImageAvailable">
+						<div class="remainingThirtyDescription">????</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+
+	<footer>
+		<div class="row">
+			<footer class="col-md-12">
+				<p id="Name">Kris Reid (2016)</p>
+			</footer>
+		</div>
+	</footer>
+
+</html>
