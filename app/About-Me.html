@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="../css/bootstrap.css">
 		<link href="https://fonts.googleapis.com/css?family=Amatica+SC|Reenie+Beanie|Rock+Salt" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One|Waiting+for+the+Sunrise" rel="stylesheet">
 		<link rel="stylesheet" href="../css/main.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -43,6 +44,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="../app/Login" data-toggle="modal" data-target="#myModal">Sign In</a></li>
 								<li class="divider"></li>
+								<li><a href="../app/unused-features.html">Unused Features</a></li>
 								<li><a href="https://google.com">Google</a></li>
 								<li><a href="https://amazon.co.uk">Amazon</a></li>
 							</ul>
@@ -94,12 +96,62 @@
 
 		<!-- Body Code -->
 
+		 <!-- well well-lg -->
+
 		<div class='container-fluid'>
+
+			<div class="row text-justify">
+				<!-- .col-md-6 .col-md-offset-3 -->
+				<div class="col-xs-10 col-xs-offset-1 well well-lg">
+					<h2>Before we begin ...</h2>
+					<p>Thankyou for taking the time to visit the site. The point was to initially prove that i could learn a new skill in html and css. This has since moved onto HTML5, CSS3, JS, Bootstrap, MongoDB, Java, ObjectiveC and Swift. Feel free to explore a little more about me and my past and drop me an email with any thoughts or feedback on how to improve this site / other technologies that i should look in to.</p>
+
+						<div class="col-xs-12" align="center">
+							<button type="button" class="btn-sm btn-default"><a href="https://github.com/KrisReid" id="bwb-button">Github</a></button>
+							<button type="button" class="btn-sm btn-default"><a href="https://uk.linkedin.com/in/kris-reid-b6305130" id="bwb-button">LinkedIn</a></button>
+							<button type="button" class="btn-sm btn-default" data-toggle="modal" data-target="#emailModal" data-whatever="@mdo">Email Me</button>
+						</div>
+
+						<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="exampleModalLabel">New message</h4>
+									</div>
+									<div class="modal-body">
+										<form>
+											<div class="form-group">
+												<label for="recipient-name" class="control-label">Recipient:</label>
+												<input type="text" class="form-control" id="recipient-name" value="krisreid_06@hotmail.com" readonly>
+											</div>
+											<div class="form-group">
+												<label for="subject-text" class="control-label">Subject:</label>
+												<input type="text" class="form-control" id="subject-text">
+											</div>
+											<div class="form-group">
+												<label for="message-text" class="control-label">Message:</label>
+												<textarea class="form-control" id="message-text"></textarea>
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Send message</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+				</div>
+			</div>
+
 
 			<div class="row text-justify">
 				<div class="col-sm-4 col-xs-12">
 					<h2>The Early Years</h2>
-						<p class="aboutMeText">
+						<p>
 							I grew up in a suburb of Bristol with my mum, dad and two brothers.  My first love, at age six, was football and I played for my local club loyally every Saturday / Sunday until I moved away from Bristol.
 							<br />
 							<br />
@@ -112,7 +164,7 @@
 				<div class="col-sm-4 col-xs-12">
 					<!-- <img src="../img/uni.jpg" class="uniImage" /> -->
 					<h2>Uni Life</h2>
-						<p class="aboutMeText">
+						<p>
 							I chose a local university as it not only had a great reputation for my field of study but it meant I could continue playing football at the club and I could stay close to my ever growing family (my brothers had started their own families and I wanted to be around to be cool Uncle Kris).
 							<br />
 							<br />
@@ -127,7 +179,7 @@
 				</div>
 				<div class="col-sm-4 col-xs-12">
 					<h2>Work Life</h2>
-						<p class="aboutMeText">
+						<p>
 							After graduating I went to work in the IT department at Andrews, a South West based estate agents.  I started off there building servers and focusing on learning everyday technical tasks.  After a while I asked for a new challenge and was given a role as a business analyst; mapping out all of Andrews processes and standardising them across their fifty branches (sometimes you wish you never asked).
 							<br />
 							<br />
