@@ -138,6 +138,7 @@ footer {
   background-color: #aecae8;
   /*background-color: #2b6eb7;*/
   color: white;
+}
 
 
 /**/
@@ -220,6 +221,9 @@ footer {
 .close:hover {
   transform: rotate(360deg);
 }
+
+
+
 
 
 
